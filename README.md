@@ -21,6 +21,8 @@ I checked the results by inserting a test sample into the trained model.<br><br>
 ![image](https://user-images.githubusercontent.com/110075956/220639504-19ed736d-24d1-4177-ab4b-5a6671269671.png)
 
 # 3. Conclusions
+Although U-Net has better loss and accuracy than AttnU-Net and TransU-Net, AttnU-Net and TransU-Net showed more reasonable predictive results. U-Net looked as if it had not been trained at all. So I concluded I made a mistake in setting the loss function and accuracy. The loss function and accuracy metrics didn't feed into the performance of models well or I put the wrong values in the loss function and accuracy metrics.<br>
+
 
 # 4. References
 RONNEBERGER, Olaf; FISCHER, Philipp; BROX, Thomas. U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015. p. 234-241.<br>
