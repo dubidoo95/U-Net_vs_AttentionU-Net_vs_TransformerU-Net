@@ -1,6 +1,13 @@
 # U-Net_vs_AttentionU-Net_vs_TransformerU-Net
 # 1. Abstracts
 
+The U-Net is a model designed to include the positional features of pixels in an image. It is widely used in biomedical image segmentation. The name "U-Net" is given because the network is shaped like a "U" and it consists of a contracting path and an expanding path.<br>
+![image](https://user-images.githubusercontent.com/110075956/221114736-713f05f6-e2b3-44eb-a2be-acb7050c635a.png)
+
+In contracting path, U-Net captures context information. And high resolution features from the contracting path are combined with the upsampled output. A successive convolution layer can then learn to assemble a more precise output based on this information.<br>
+
+
+
 # 2. Results
 
 I used used 'dice loss' as the loss function and 'IoU' as the accuracy.<br>
